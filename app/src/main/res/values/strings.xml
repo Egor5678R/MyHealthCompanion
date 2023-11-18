@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My-Health-Companion</string>
+    <string name="LogName">My Health Companion</string>
+    <string name="log">Вход</string>
+    <string name="mail">Почта или телефон</string>
+    <string name="password">Пароль</string>
+    <string name="or">или</string>
+    <string name="login">Войти</string>
+    <string name="registration">Регистрация</string>
+
+</resources>
