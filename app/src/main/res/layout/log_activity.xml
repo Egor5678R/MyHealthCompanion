@@ -145,8 +145,7 @@
         android:selectAllOnFocus="true"
         android:singleLine="true"
         android:text="@string/login"
-        android:textColor="@color/white"
-        />
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/RegButton"

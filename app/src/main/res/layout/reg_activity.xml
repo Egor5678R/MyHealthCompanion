@@ -11,4 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="RegActivity" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:textColor="@color/white"
+        android:background="@drawable/border_log"/>
 </LinearLayout>

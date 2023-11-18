@@ -1,6 +1,8 @@
 package com.example.my_health_companion
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,5 +19,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
+        var Button1: Button = findViewById(R.id.button12)
+
+        Button1.setOnClickListener{
+            val intent = Intent(this,LogActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
