@@ -1,21 +1,257 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:content=".RegActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RegActivity" />
     <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
+        android:id="@+id/regButton5"
+        android:layout_width="134dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="252dp"
+        android:layout_marginRight="55dp"
+
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/border_yandex"
+        android:elegantTextHeight="true"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/inter_medium"
+        android:hapticFeedbackEnabled="true"
+        android:linksClickable="true"
+        android:nestedScrollingEnabled="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/regButton4"
+        android:layout_width="134dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="55dp"
+
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/border_sber"
+        android:elegantTextHeight="true"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/inter_medium"
+        android:hapticFeedbackEnabled="true"
+        android:linksClickable="true"
+        android:nestedScrollingEnabled="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/regButton3"
+        android:layout_width="359dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="51dp"
+
+        android:background="@drawable/border_reg"
+        android:elegantTextHeight="true"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/inter_medium"
+        android:hapticFeedbackEnabled="true"
+        android:linksClickable="true"
+        android:nestedScrollingEnabled="true"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="@string/registration"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Назад"
-        android:textColor="@color/white"
-        android:background="@drawable/border_log"/>
-</LinearLayout>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="189dp"
+        android:layout_marginTop="541dp"
+        android:fontFamily="@font/lexend_extrabold"
+        android:text="@string/or"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:nestedScrollingEnabled="false"
+
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/firstname"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:nestedScrollingEnabled="false"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/lastname"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/patronymic"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:nestedScrollingEnabled="false"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/patronymic"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/mailAndPhone2"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:nestedScrollingEnabled="false"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/mail"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:nestedScrollingEnabled="false"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/password"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:nestedScrollingEnabled="false"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/password2"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/back_but"
+
+        android:rotationY="-180"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="@string/LogName"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="114dp"
+        android:fontFamily="@font/lexend_extrabold"
+        android:text="@string/registration"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+</RelativeLayout>
