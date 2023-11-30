@@ -13,14 +13,14 @@
         android:theme="@style/Theme.MyHealthCompanion"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".activites.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MyHealthCompanion">
 
         </activity>
         <activity
-            android:name=".LogActivity"
+            android:name=".activites.LogActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MyHealthCompanion">
@@ -32,7 +32,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".RegActivity">
+        <activity android:name=".activites.RegActivity">
 
         </activity>
 

@@ -165,7 +165,8 @@
         android:paddingTop="10dp"
         android:textAllCaps="false"
         android:textColor="@color/grey"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
 
     <EditText
         android:id="@+id/password2"
@@ -185,7 +186,8 @@
         android:paddingTop="10dp"
         android:textAllCaps="false"
         android:textColor="@color/grey"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -237,5 +239,8 @@
         android:text="@string/registration"
         android:textColor="@color/black"
         android:textSize="30sp" />
+
+
+
 
 </RelativeLayout>
