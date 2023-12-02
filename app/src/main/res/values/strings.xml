@@ -11,4 +11,5 @@
     <string name="lastname">Фамилия</string>
     <string name="patronymic">Отчество (при наличии)</string>
     <string name="password2">Повторите пароль</string>
+    <string name="monitoring">Мониторинг здоровья</string>
 </resources>
